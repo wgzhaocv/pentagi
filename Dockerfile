@@ -3,7 +3,7 @@
 # ========================================
 # Stage 1: Frontend Application Build
 # ========================================
-FROM node:24.17.0-slim AS frontend-compiler
+FROM node:24.22.1-slim AS frontend-compiler
 
 # Production build configuration
 ENV NODE_ENV=production
